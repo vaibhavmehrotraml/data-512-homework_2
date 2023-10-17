@@ -22,6 +22,15 @@ The goal of this project is to try and identify biases in Wikipedia article data
 - wp_ores_liftwing_example.ipynb: Sample notebook by Dr. David W. McDonald to illustrate requesting ORES data
 - wp_page_info_example.ipynb: Sample notebook by Dr. David W. McDonald to illustrate requesting page info data
 
+# Result and Schema
+In this analysis, we produce `wp_scored_city_articles_by_state.csv`, which contains the following columns: 
+- state: Name of the state. Eg. Alabama
+- regional_devision: Name of the region. Eg. South (East South Central)
+- population: Population of the state as taken from NST-EST2022-POP
+- article_title: Title of the article about a specific city of the state. Eg. Abbeville, Alabama
+- revision_id: Latest revision ID on Wikipedia, used to get ORES scored. Eg. 1171163550
+- article_quality: Article quality. Eg. 'C'
+
 
 # Research Implications
 A significant takeaway from this analysis was that despite the US being an economically and technologically advanced country, we see a lack of public articles and information about several regions across the country and a strong skew towards specific high population/highly dense regions, which might be for a variety of reasons. This sparks a follow-up research to conduct similar analyses on other countries in Europe, Africa, and Asia. Public data sources like Wikipedia suffer from implicit and explicit biases. In our case, the simple issue of a lack of articles about specific cities and states stands out, which is an implicit bias. The existence of explicit biases, such as ideological differences, would require further analysis.
