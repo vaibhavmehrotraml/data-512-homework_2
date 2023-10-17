@@ -17,7 +17,7 @@ The goal of this project is to try and identify biases in Wikipedia article data
 - us_cities_by_state_SEPT.2023.csv: Crawled list of US cities inside states, taken from https://en.wikipedia.org/wiki/Category:Lists_of_cities_in_the_United_States_by_state     
 - wp_scored_city_articles_by_state.csv: Results with merged datasets of cities, articles and population made according to HW schema
 - NST-EST2022-POP.xlsx: Annual Estimates of the Resident Population for the United States, Regions, States, District of Columbia and Puerto Rico: April 1, 2020 to July 1, 2022 (NST-EST2022-POP), downloaded from https://www.census.gov/data/tables/time-series/demo/popest/2020s-state-total.html. 
-
+- US States by Region - US Census Bureau.xlsx: Defining the relationship between different regions, states and divisions for the scope of this analysis
 
 - wp_ores_liftwing_example.ipynb: Sample notebook by Dr. David W. McDonald to illustrate requesting ORES data
 - wp_page_info_example.ipynb: Sample notebook by Dr. David W. McDonald to illustrate requesting page info data
