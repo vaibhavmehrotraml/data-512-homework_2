@@ -1,0 +1,1 @@
+{"enwiki": {"models": {"articlequality": {"version": "0.9.2"}}, "scores": {"1172275451": {"articlequality": {"score": {"prediction": "Start", "probability": {"B": 0.17790174840938736, "C": 0.3663061505181182, "FA": 0.0058036876490770535, "GA": 0.02927952082661201, "Start": 0.4075197613250598, "Stub": 0.013189131271745596}}}}}}}
