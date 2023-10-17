@@ -1,8 +1,18 @@
+# Goal
+The goal of this project is to try and identify biases in Wikipedia article data about cities in the US. We plan to use multiple data sources to analyse per capital presence of articles and their quality.
+
+# Data Sources
+- List of cities (Wikipedia): https://en.wikipedia.org/wiki/Category:Lists_of_cities_in_the_United_States_by_state
+- Population Data (Census Bureau): https://www.census.gov/data/tables/time-series/demo/popest/2020s-state-total.html
+- List of regions in the US (Wikipedia): https://en.wikipedia.org/wiki/List_of_regions_of_the_United_States#Census_Bureau%E2%80%93designated_regions_and_divisions
+- ORES Article Scores (Wiki): https://www.mediawiki.org/wiki/ORES, https://www.mediawiki.org/wiki/API:Info 
+
 # Files
 - HW2.ipynb: Main notebook with all steps and intermediate results
 - pipeline.log: Log file to track API hits of the ORES model
 - json_data/: Folder with JSON dumps of the page info requests
 - ores_json_data/: Folder with JSON dumps of the ORES model requests
+> Note! Collecting this data took several hours! Try to re-use instead of recollect
 
 - us_cities_by_state_SEPT.2023.csv: Crawled list of US cities inside states, taken from https://en.wikipedia.org/wiki/Category:Lists_of_cities_in_the_United_States_by_state     
 - wp_scored_city_articles_by_state.csv: Results with merged datasets of cities, articles and population made according to HW schema
